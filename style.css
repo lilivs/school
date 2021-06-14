@@ -1,0 +1,166 @@
+	html,h1,h2,	p, a, img, ul,main, li, header,footer,section, form{
+		background: transparent;
+		border: 0;
+		margin: 0;
+		padding: 0;
+		vertical-align: baseline;
+	}
+	body{
+		background-color:transparent;
+		margin-left:150px;
+		margin-right:150px;
+		font-family:Arial, Verdana;
+	}
+	h1, h2, h3{
+		text-align:center;
+		font-family:Arial;
+	}
+	h1{
+		font-size:55px;
+		color:DeepSkyBlue;
+		font-style:italic;
+		padding-top: 20px;
+	}
+	h2{
+		font-size:40px;
+		color:lime;
+		font-style:italic;
+		margin: 20px;
+	}
+	h3 a{
+		font-size:30px;
+		color:orange;
+	}
+	h3 a:hover{
+		color:OrangeRed;
+	}
+	nav{
+		border-bottom:3px solid yellow;
+		border-top:3px solid yellow;
+		text-align:center;
+	}
+	nav ul li{
+		list-style-type:none;
+		display:inline-block;
+		padding:10px;
+		margin:10px;
+	}
+	a{
+		text-decoration:none;
+	}
+	header a:link, a:visited{
+		font-size:20px;
+		font-family:Arial;
+		color:red;
+	}
+	header a:hover{
+		color:Maroon;
+	}
+	main p{
+		text-align:center;
+		font-family:Arial;
+		font-size:25px;
+		color:DarkMagenta;
+		margin:20px;
+	}
+	header img{
+		height:150px;
+		width:150px;
+		float:left;
+	}
+	main{
+		text-align:center;
+	}
+	main section img{
+		height:350px;
+		width:580px;
+		margin: 10px; 
+	}
+	main img{
+		height:500px;
+		width:600px;
+		margin: 0 auto; 
+	}
+	footer p{
+		margin-top:10px;
+		padding-bottom:70px;
+		padding-top:20px;
+		text-align:center;
+		background:Wheat;
+		font-family:Arial;
+		font-size:25px;
+		color:Orchid;
+		font-style:italic;
+		border-right:2px solid yellow;
+		border-left:2px solid yellow;
+		border-top:2px solid yellow;
+	}
+	.math-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #fff;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.math-content a {
+	  color: red;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	  text-align: left;
+	}
+
+	.math:hover .math-content {
+	display: block;
+	}
+	
+	.bel-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #fff;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.bel-content a {
+	  color: red;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	  text-align: left;
+	}
+
+	.bel:hover .bel-content {
+	display: block;
+	}
+	
+	form{
+		font-size:15px;
+		padding: 0 200px;
+	}
+	form div{
+		margin-bottom: 20px;
+	}
+	form div input, form div textarea{
+		border: 1px solid orangered;
+		border-radius: 5px;
+		padding: 10px 20px;
+	}
+	form button{
+		border: 1px solid orangered;
+		padding: 10px;
+		color: orangered;
+	}
+	form button:hover{
+		color: white;
+		background-color: orangered;
+	}
+	iframe{
+		width:1000px;
+		height:600px;
+		margin-bottom:40px;
+		margin-top:10px;
+	}
